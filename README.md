@@ -18,15 +18,6 @@ It is trained on the **UNB/CIC IoT dataset**, which you can **download from Kagg
 ### 1️⃣ Download Dataset
 - Visit the Kaggle dataset page:  
   👉 [UNB CIC IoT Dataset on Kaggle](https://www.kaggle.com/datasets)  
-- Download and extract it into your project directory so it looks like:
-  your-repo/
-├── dataset/
-│   ├── wataiData/
-│   │   └── csv/
-│   │       ├── file1.csv
-│   │       └── …
-├── nanolcm.py
-└── README.md
 
 ### 2️⃣ Create Virtual Environment
 ```bash
