@@ -30,25 +30,25 @@ source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 ```
 ⸻
 
-3️⃣ Install Dependencies
+###3️⃣ Install Dependencies
 ```
 pip install "torch>=2.2" "pennylane>=0.36" "pandas>=2.1" "numpy>=1.26" "tqdm>=4.66"
 ```
 
 ⸻
 
-▶️ Run the Script
+###▶️ Run the Script
 	1.	Open nanolcm.py and set the dataset path:
 ```
 ROOT = "./dataset/wataiData/csv"
 ```
 
-	2.	Run the training script:
+2.	Run the training script:
 ```
 python nanolcm.py
 ```
 
-	3.	The balanced dataset files will be saved to:
+3.	The balanced dataset files will be saved to:
 ```
 ./CICIoT2023_balanced_30k_30k.csv
 ./CICIoT2023_balanced_30k_30k.parquet
