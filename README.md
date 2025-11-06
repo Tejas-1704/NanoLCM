@@ -108,8 +108,8 @@ WD = 2e-4
 
 ---
 
-## 🧾 Credits & License
+## 🧾 Credits 
 
 * **Dataset:** UNB/CIC IoT (Kaggle)
 * **Frameworks:** PyTorch, PennyLane
-* **License:** MIT
+  
