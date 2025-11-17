@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 # ==== config ====
 ROOT = "/kaggle/input/unb-cic-iot-dataset/wataiData/csv"  # crawl this whole tree
-PER_CLASS = 1000                                        # 30k benign + 30k attack
+PER_CLASS = 30000                                        # 30k benign + 30k attack
 VAL_RATIO = 0.2
 SEED = 7
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
